@@ -1,0 +1,22 @@
+{
+  "name": "chnnyc",
+  "description": "Create this whole pack of WP BAKERY CUSTOMS por CHNNYC",
+  "main": "",
+  "authors": [
+    "Adanzilla"
+  ],
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "WordPress",
+    "WpBakery"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
