@@ -161,6 +161,12 @@ require get_template_directory() . '/inc/custom-header.php';
  */
 require get_template_directory() . '/inc/template-tags.php';
 
+
+/** 
+ * Elementos personalizados para Visual Composer 
+ **/
+require get_template_directory() . '/inc/vc-elements.php';
+
 /**
  * Functions which enhance the theme by hooking into WordPress.
  */
