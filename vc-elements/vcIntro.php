@@ -118,7 +118,7 @@ class vcIntro extends WPBakeryShortCode {
             $html = '
                 <div class="row no-gutters vc-custom vc-intro">
                     <div class="col-12 col-md-6 pr-md-5 order-2 order-md-1">
-                        <h2>'. $subtitle .'</h2>
+                        <h2 class="mt-3 mt-md-0">'. $subtitle .'</h2>
                         <h1>'. $title .'</h1>
                         <div class="content py-4">
                             '. apply_filters( "the_content", $content ) .'
