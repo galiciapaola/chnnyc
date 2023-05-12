@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+
 $primary : #00161A;
 $secondary : #00161A;
 $tertiary : #00161A;
 $light : #ffffff;
 
-$font-primary : 'Times New Roman';
-$font-secondary : 'Helvetica';
+$font-primary : 'Fraunces', serif;
+$font-secondary : 'Montserrat', sans-serif;
 $font-tertiary : 'Helvetica';
 
 
@@ -42,13 +45,13 @@ $bg-primary : #FEF7ED;
 					font-family: $font-secondary;
 					font-size: 18px;
 					line-height: 22px;
-					font-family: "Helvetica";
 					border-bottom: 1px solid $primary;
 					padding-bottom: 1rem;
 					margin-bottom: 1rem;
 				}
 
 				p {
+					font-family: $font-secondary;
 					font-size: 18px;
 					line-height: 22px;
 					color: $primary;
