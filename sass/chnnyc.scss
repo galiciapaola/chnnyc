@@ -78,6 +78,27 @@ $bg-primary : #FEF7ED;
 				}
 			}
 
+			ul {
+				margin-top: 2rem;
+				padding-left: 0;
+				margin-left: 1rem;
+				li {
+					font-size: 18px;
+					line-height: 22px;
+					color: $secondary;
+					padding-left: 0;
+				    padding-bottom: 1rem;
+				    border-bottom: 1px solid $secondary;
+				    margin-bottom: 1rem;
+					a  {
+
+						font-weight: 700;
+						color: $secondary;
+
+					}
+				}
+			}
+
 
 			&.vc-intro {
 				
@@ -104,6 +125,12 @@ $bg-primary : #FEF7ED;
 					&:last-child {
 						margin-bottom: 0;
 					}
+				}
+			}
+
+			&.vc-full-width-container {
+				h1 {
+					color: $secondary;
 				}
 			}
 		}
