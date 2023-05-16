@@ -76,7 +76,18 @@ class vcIntro extends WPBakeryShortCode {
                         "description" => "Image",
                         "param_name"  => "image",
                         "value"       => "",
-                    ]
+                    ],
+
+                    [
+                        'type'           => 'dropdown',
+                        'heading'        => "Background",
+                        'param_name'     => 'background',
+                        'value'          => [
+                            "Transparent" => 'bg-none',
+                            "Yellow"     => 'bg-primary'
+                        ],
+                        "description"    => "Choose an option"
+                    ],
 
                 ]
             ]
@@ -92,11 +103,12 @@ class vcIntro extends WPBakeryShortCode {
         extract(
             shortcode_atts(
                 [
-                    'animation' => '',
-                    'title'     => '',
-                    'subtitle'  => '',
-                    'image'     => '',
-                    'link'      => '',
+                    'animation'  => '',
+                    'title'      => '',
+                    'subtitle'   => '',
+                    'image'      => '',
+                    'link'       => '',
+                    'background' => '',
                 ],
                 $atts
             )
@@ -106,17 +118,21 @@ class vcIntro extends WPBakeryShortCode {
         $link = vc_build_link( $link );
         $html_link = '';
         $html_image = '';
+        $html_image = '';
 
 
         if( ! empty( $link ) && $link['url'] != "" ){
             $html_link = '<a href="'. $link['url'] .'" class="btn btn-primary">'. $link['title'] .'</a>';
         }
 
+
+        
+
         if ( $image ) {
             $img_src = $image[0];
 
             $html = '
-                <div class="row no-gutters vc-custom vc-intro">
+                <div class="row no-gutters">
                     <div class="col-12 col-md-6 pr-md-5 order-2 order-md-1">
                         <h2 class="mt-3 mt-md-0">'. $subtitle .'</h2>
                         <h1>'. $title .'</h1>
@@ -133,7 +149,7 @@ class vcIntro extends WPBakeryShortCode {
 
         }else{
             $html = '
-                <div class="row no-gutters vc-custom vc-intro content-centered">
+                <div class="row no-gutters content-centered">
                     <div class="col-12 col-md-6 mx-auto order-2 order-md-1">
                         <h2>'. $subtitle .'</h2>
                         <h1>'. $title .'</h1>
@@ -146,6 +162,14 @@ class vcIntro extends WPBakeryShortCode {
             ';
         }
 
+
+        $html = '
+            <section class="'. $background .' vc-custom vc-intro my-3 py-3 my-md-5 py-md-5">
+                <div class="container">
+                    '. $html .'    
+                </div>
+            </section>
+        ';
         
 
         return $html;
