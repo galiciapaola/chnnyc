@@ -16,8 +16,8 @@
     font-size: 18px;
     line-height: 22px;
   }
-  /* line 34, ../sass/responsive.scss */
-  * body .vc-custom a {
+  /* line 36, ../sass/responsive.scss */
+  * body .vc-custom a.btn {
     font-size: 16px;
     line-height: 19px;
     border-radius: 78px;
