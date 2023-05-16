@@ -66,12 +66,12 @@ $bg-primary : #FEF7ED;
 
 					&.btn {
 						font-family: $font-secondary;
-						background-color: $primary;
-						border-color: $primary;
+						background-color: $secondary;
+						border-color: $secondary;
 						color: $light;
 						font-size: 16px;
 						line-height: 19px;
-						border: 1.5px solid $primary;
+						border: 1.5px solid $secondary;
 						border-radius: 78px;
 						padding: 13px 40px 10px 40px;
 					}
