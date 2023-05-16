@@ -84,7 +84,7 @@ class vcIntro extends WPBakeryShortCode {
                         'param_name'     => 'background',
                         'value'          => [
                             "Transparent" => 'bg-none',
-                            "Primary"     => 'bg-primary'
+                            "Yellow"     => 'bg-primary'
                         ],
                         "description"    => "Choose an option"
                     ],
