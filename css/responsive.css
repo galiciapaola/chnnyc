@@ -1,0 +1,26 @@
+@media (max-width: 575px) {
+  /* line 18, ../sass/responsive.scss */
+  * body .vc-custom.vc-intro h1 {
+    font-size: 56px;
+    line-height: 60px;
+  }
+  /* line 22, ../sass/responsive.scss */
+  * body .vc-custom.vc-intro h2 {
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 29, ../sass/responsive.scss */
+  * body .vc-custom.vc-intro p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  /* line 34, ../sass/responsive.scss */
+  * body .vc-custom.vc-intro a {
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 78px;
+    padding: 13px 40px 10px 40px;
+  }
+}

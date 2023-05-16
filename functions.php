@@ -146,6 +146,7 @@ add_action( 'widgets_init', 'chnnyc_widgets_init' );
 function chnnyc_scripts() {
 	wp_enqueue_style( 'chnnyc-style', get_stylesheet_uri(), [], _S_VERSION );
 	wp_enqueue_style( 'chnnyc-custom', get_stylesheet_directory_uri() . '/css/chnnyc.css', [], _S_VERSION );
+	wp_enqueue_style( 'chnnyc-responsive', get_stylesheet_directory_uri() . '/css/responsive.css', [], _S_VERSION );
 	
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/bower_components/bootstrap/dist/css/bootstrap.min.css' );
 	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/bower_components/bootstrap/dist/js/bootstrap.bundle.js', ["jquery"], _S_VERSION, true );
