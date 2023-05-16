@@ -122,7 +122,11 @@ class vcIntro extends WPBakeryShortCode {
 
 
         if( ! empty( $link ) && $link['url'] != "" ){
-            $html_link = '<a href="'. $link['url'] .'" class="btn btn-primary">'. $link['title'] .'</a>';
+            $html_link = '
+                <p>
+                    <a href="'. $link['url'] .'" class="btn btn-primary">'. $link['title'] .'</a>
+                </p>
+            ';
         }
 
 

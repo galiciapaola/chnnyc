@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
 
 $primary : #00161A;
-$secondary : #00161A;
+$secondary : #004A54;
 $tertiary : #00161A;
 $light : #ffffff;
 
@@ -38,40 +38,49 @@ $bg-primary : #FEF7ED;
 		}
 
 		.vc-custom {
-			&.vc-intro {
-				h1 {
-					font-family: $font-primary;
-					font-size: 66px;
-					line-height: 63px;
-				}
-				h2 {
-					font-family: $font-secondary;
-					font-size: 18px;
-					line-height: 22px;
-					border-bottom: 1px solid $primary;
-					padding-bottom: 1rem;
-					margin-bottom: 1rem;
-				}
+			
+			h1 {
+				font-family: $font-primary;
+				font-size: 66px;
+				line-height: 63px;
+			}
+			h2 {
+				font-family: $font-secondary;
+				font-size: 18px;
+				line-height: 22px;
+				border-bottom: 1px solid $primary;
+				padding-bottom: 1rem;
+				margin-bottom: 1rem;
+			}
 
-				p {
-					font-family: $font-secondary;
-					font-size: 18px;
-					line-height: 22px;
-					color: $primary;
-				}
-
+			p {
+				font-family: $font-secondary;
+				font-size: 18px;
+				line-height: 22px;
+				color: $primary;
+				
 				a  {
-					font-family: $font-secondary;
-					background-color: $primary;
-					border-color: $primary;
-					color: $light;
-					font-size: 16px;
-					line-height: 19px;
-					border: 1.5px solid $primary;
-					border-radius: 78px;
-					padding: 13px 40px 10px 40px;
-				}
 
+					font-weight: 700;
+					color: $secondary;
+
+					&.btn {
+						font-family: $font-secondary;
+						background-color: $primary;
+						border-color: $primary;
+						color: $light;
+						font-size: 16px;
+						line-height: 19px;
+						border: 1.5px solid $primary;
+						border-radius: 78px;
+						padding: 13px 40px 10px 40px;
+					}
+				}
+			}
+
+
+			&.vc-intro {
+				
 				.content-centered {
 					h1 {
 						text-align: center;
@@ -86,6 +95,16 @@ $bg-primary : #FEF7ED;
 					}
 				}
 
+			}
+
+			&.vc-yellow-block {
+				p {
+					margin-bottom: 3rem;
+					text-align: center;
+					&:last-child {
+						margin-bottom: 0;
+					}
+				}
 			}
 		}
 	}
