@@ -109,3 +109,16 @@
 * body .vc-custom.vc-full-width-container h1 {
   color: #004A54;
 }
+/* line 138, ../sass/chnnyc.scss */
+* body .vc-custom.vc-two-column-list-container h2 {
+  color: #004A54;
+  font-family: "Fraunces", serif;
+  font-size: 36px;
+  line-height: 36px;
+  border-bottom: 0;
+}
+/* line 149, ../sass/chnnyc.scss */
+* body .vc-custom.vc-two-column-list-container ul li {
+  font-size: 20px;
+  line-height: 24px;
+}

@@ -133,6 +133,25 @@ $bg-primary : #FEF7ED;
 					color: $secondary;
 				}
 			}
+
+			&.vc-two-column-list-container {
+				h2 {
+					color: $secondary;
+					font-family: $font-primary;
+					font-size: 36px;
+					line-height: 36px;
+					border-bottom: 0;
+					// padding-bottom: 1rem;
+					// margin-bottom: 1rem;
+				}
+
+				ul {
+					li {
+						font-size: 20px;
+						line-height: 24px;
+					}
+				}
+			}
 		}
 	}
 }
