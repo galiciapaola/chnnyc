@@ -164,7 +164,7 @@ class vcIntro extends WPBakeryShortCode {
 
 
         $html = '
-            <section class="'. $background .' vc-custom vc-intro my-5 py-5">
+            <section class="'. $background .' vc-custom vc-intro my-3 py-3 my-md-5 py-md-5">
                 <div class="container">
                     '. $html .'    
                 </div>
