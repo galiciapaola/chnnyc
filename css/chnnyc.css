@@ -63,24 +63,49 @@
   border-radius: 78px;
   padding: 13px 40px 10px 40px;
 }
+/* line 81, ../sass/chnnyc.scss */
+* body .vc-custom ul {
+  margin-top: 2rem;
+  padding-left: 0;
+  margin-left: 1rem;
+}
 /* line 85, ../sass/chnnyc.scss */
+* body .vc-custom ul li {
+  font-size: 18px;
+  line-height: 22px;
+  color: #004A54;
+  padding-left: 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #004A54;
+  margin-bottom: 1rem;
+}
+/* line 93, ../sass/chnnyc.scss */
+* body .vc-custom ul li a {
+  font-weight: 700;
+  color: #004A54;
+}
+/* line 106, ../sass/chnnyc.scss */
 * body .vc-custom.vc-intro .content-centered h1 {
   text-align: center;
 }
-/* line 88, ../sass/chnnyc.scss */
+/* line 109, ../sass/chnnyc.scss */
 * body .vc-custom.vc-intro .content-centered h2 {
   text-align: center;
 }
-/* line 91, ../sass/chnnyc.scss */
+/* line 112, ../sass/chnnyc.scss */
 * body .vc-custom.vc-intro .content-centered p {
   text-align: center;
 }
-/* line 101, ../sass/chnnyc.scss */
+/* line 122, ../sass/chnnyc.scss */
 * body .vc-custom.vc-yellow-block p {
   margin-bottom: 3rem;
   text-align: center;
 }
-/* line 104, ../sass/chnnyc.scss */
+/* line 125, ../sass/chnnyc.scss */
 * body .vc-custom.vc-yellow-block p:last-child {
   margin-bottom: 0;
+}
+/* line 132, ../sass/chnnyc.scss */
+* body .vc-custom.vc-full-width-container h1 {
+  color: #004A54;
 }
