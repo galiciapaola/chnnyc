@@ -5,4 +5,4 @@ readme.*
 license.*
 bower_components
 .sass-cache
-
+.DS_Store
