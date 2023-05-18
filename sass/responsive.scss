@@ -13,6 +13,47 @@
 	* {
 		body {
 
+			.modal {
+				&.popup-chnnyc {
+					.modal-content {
+
+						.modal-header {
+							button {
+								&.close {
+									font-size: 14px;
+									line-height: 18px;
+								}
+							}
+						}
+
+						.modal-body {
+
+							h2 {
+								font-size: 38px;
+								line-height: 48px;
+							}
+							p {
+								font-size: 16px;
+								line-height: 20px;
+								a  {
+
+									font-weight: 700;
+
+									&.btn {
+										font-size: 14px;
+										line-height: 18px;
+										
+									}
+								}
+							}
+
+						}
+
+					}
+
+				}
+			}
+
 			.vc-custom {
 					
 				h1 {

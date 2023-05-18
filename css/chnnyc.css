@@ -1,60 +1,66 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fraunces&display=swap");
-/* line 17, ../sass/chnnyc.scss */
+/* line 18, ../sass/chnnyc.scss */
 .text-primary {
   color: #00161A;
 }
 
-/* line 21, ../sass/chnnyc.scss */
+/* line 22, ../sass/chnnyc.scss */
 .text-secondary {
   color: #004A54;
 }
 
-/* line 25, ../sass/chnnyc.scss */
+/* line 26, ../sass/chnnyc.scss */
 .text-tertiary {
-  color: #00161A;
+  color: #00BAD3;
 }
 
-/* line 29, ../sass/chnnyc.scss */
+/* line 30, ../sass/chnnyc.scss */
 .debug {
   border: 1px dotted green;
 }
 
-/* line 36, ../sass/chnnyc.scss */
-* body .bg-primary {
-  background-color: #FEF7ED !important;
+/* line 41, ../sass/chnnyc.scss */
+* body .modal.popup-chnnyc .modal-content .modal-header {
+  background-color: #00BAD3;
 }
-/* line 42, ../sass/chnnyc.scss */
-* body .vc-custom h1 {
+/* line 44, ../sass/chnnyc.scss */
+* body .modal.popup-chnnyc .modal-content .modal-header button.close {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  text-shadow: none;
+  opacity: 1;
+}
+/* line 55, ../sass/chnnyc.scss */
+* body .modal.popup-chnnyc .modal-content .modal-body {
+  background-color: #FEF7ED;
+}
+/* line 59, ../sass/chnnyc.scss */
+* body .modal.popup-chnnyc .modal-content .modal-body h2 {
+  text-align: center;
   font-family: "Fraunces", serif;
-  font-size: 66px;
-  line-height: 63px;
+  font-size: 48px;
+  line-height: 48px;
   color: #00161A;
 }
-/* line 48, ../sass/chnnyc.scss */
-* body .vc-custom h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  border-bottom: 2px solid #00161A;
-  padding-bottom: 1rem;
-  margin-bottom: 1rem;
-}
-/* line 58, ../sass/chnnyc.scss */
-* body .vc-custom p {
+/* line 66, ../sass/chnnyc.scss */
+* body .modal.popup-chnnyc .modal-content .modal-body p {
+  text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   line-height: 22px;
   color: #00161A;
 }
-/* line 64, ../sass/chnnyc.scss */
-* body .vc-custom p a {
+/* line 72, ../sass/chnnyc.scss */
+* body .modal.popup-chnnyc .modal-content .modal-body p a {
   font-weight: 700;
   color: #004A54;
 }
-/* line 69, ../sass/chnnyc.scss */
-* body .vc-custom p a.btn {
+/* line 77, ../sass/chnnyc.scss */
+* body .modal.popup-chnnyc .modal-content .modal-body p a.btn {
+  transition: background-color 0.5s ease;
   font-family: "Montserrat", sans-serif;
   background-color: #004A54;
   border-color: #004A54;
@@ -65,13 +71,69 @@
   border-radius: 78px;
   padding: 13px 40px 10px 40px;
 }
-/* line 83, ../sass/chnnyc.scss */
+/* line 89, ../sass/chnnyc.scss */
+* body .modal.popup-chnnyc .modal-content .modal-body p a.btn:hover {
+  background-color: transparent;
+  color: #004A54;
+}
+/* line 104, ../sass/chnnyc.scss */
+* body .bg-primary {
+  background-color: #FEF7ED !important;
+}
+/* line 110, ../sass/chnnyc.scss */
+* body .vc-custom h1 {
+  font-family: "Fraunces", serif;
+  font-size: 66px;
+  line-height: 63px;
+  color: #00161A;
+}
+/* line 116, ../sass/chnnyc.scss */
+* body .vc-custom h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  border-bottom: 2px solid #00161A;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+/* line 126, ../sass/chnnyc.scss */
+* body .vc-custom p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: #00161A;
+}
+/* line 132, ../sass/chnnyc.scss */
+* body .vc-custom p a {
+  font-weight: 700;
+  color: #004A54;
+}
+/* line 137, ../sass/chnnyc.scss */
+* body .vc-custom p a.btn {
+  transition: background-color 0.5s ease;
+  font-family: "Montserrat", sans-serif;
+  background-color: #004A54;
+  border-color: #004A54;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 19px;
+  border: 1.5px solid #004A54;
+  border-radius: 78px;
+  padding: 13px 40px 10px 40px;
+}
+/* line 148, ../sass/chnnyc.scss */
+* body .vc-custom p a.btn:hover {
+  background-color: transparent;
+  color: #004A54;
+}
+/* line 156, ../sass/chnnyc.scss */
 * body .vc-custom ul {
   margin-top: 2rem;
   padding-left: 0;
   margin-left: 1rem;
 }
-/* line 87, ../sass/chnnyc.scss */
+/* line 160, ../sass/chnnyc.scss */
 * body .vc-custom ul li {
   font-size: 18px;
   line-height: 22px;
@@ -81,42 +143,42 @@
   border-bottom: 1px solid #004A54;
   margin-bottom: 1rem;
 }
-/* line 95, ../sass/chnnyc.scss */
+/* line 168, ../sass/chnnyc.scss */
 * body .vc-custom ul li a {
   font-weight: 700;
   color: #004A54;
 }
-/* line 108, ../sass/chnnyc.scss */
+/* line 181, ../sass/chnnyc.scss */
 * body .vc-custom.vc-intro .content-centered h1 {
   text-align: center;
 }
-/* line 111, ../sass/chnnyc.scss */
+/* line 184, ../sass/chnnyc.scss */
 * body .vc-custom.vc-intro .content-centered h2 {
   text-align: center;
 }
-/* line 114, ../sass/chnnyc.scss */
+/* line 187, ../sass/chnnyc.scss */
 * body .vc-custom.vc-intro .content-centered p {
   text-align: center;
 }
-/* line 124, ../sass/chnnyc.scss */
+/* line 197, ../sass/chnnyc.scss */
 * body .vc-custom.vc-yellow-block h1 {
   font-size: 56px;
   line-height: 56px;
 }
-/* line 128, ../sass/chnnyc.scss */
+/* line 201, ../sass/chnnyc.scss */
 * body .vc-custom.vc-yellow-block p {
   margin-bottom: 3rem;
   text-align: center;
 }
-/* line 131, ../sass/chnnyc.scss */
+/* line 204, ../sass/chnnyc.scss */
 * body .vc-custom.vc-yellow-block p:last-child {
   margin-bottom: 0;
 }
-/* line 138, ../sass/chnnyc.scss */
+/* line 211, ../sass/chnnyc.scss */
 * body .vc-custom.vc-full-width-container h1 {
   color: #004A54;
 }
-/* line 144, ../sass/chnnyc.scss */
+/* line 217, ../sass/chnnyc.scss */
 * body .vc-custom.vc-two-column-list-container h2 {
   color: #004A54;
   font-family: "Fraunces", serif;
@@ -124,7 +186,7 @@
   line-height: 36px;
   border-bottom: 0;
 }
-/* line 155, ../sass/chnnyc.scss */
+/* line 228, ../sass/chnnyc.scss */
 * body .vc-custom.vc-two-column-list-container ul li {
   font-size: 20px;
   line-height: 24px;
