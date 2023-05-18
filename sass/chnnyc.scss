@@ -13,6 +13,7 @@ $font-tertiary : 'Helvetica';
 
 $bg-primary : #FEF7ED;
 $bg-transparent : transparent;
+$bg-light : #ffffff;
 
 
 .text-primary {
@@ -149,6 +150,28 @@ $bg-transparent : transparent;
 							background-color: $bg-transparent;
 							color: $secondary;
 						}
+
+						&.btn-secondary {
+							background-color: $bg-light;
+							border-color: $secondary;
+							color: $secondary;
+							font-size: 18px;
+							line-height: 22px;
+							border: 1.5px solid $secondary;
+							margin: 0 10px 10px 10px;
+							&:hover {
+								background-color: $secondary;
+								color: $light;
+							}
+							&:first-child {
+								margin: 0 10px 10px 0px;
+							}
+
+							&:last-child {
+								margin: 0 0px 10px 10px;
+							}
+						}
+
 					}
 				}
 			}
@@ -229,6 +252,17 @@ $bg-transparent : transparent;
 						font-size: 20px;
 						line-height: 24px;
 					}
+				}
+			}
+
+			&.vc-yellow-block-with-buttons {
+				h2 {
+					font-size: 36px;
+					line-height: 36px;
+					font-family: $font-primary;
+					border: 0;
+					padding-bottom: 0;
+					margin-bottom: 2rem;
 				}
 			}
 		}
