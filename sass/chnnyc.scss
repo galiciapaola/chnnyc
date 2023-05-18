@@ -3,7 +3,7 @@
 
 $primary : #00161A;
 $secondary : #004A54;
-$tertiary : #00161A;
+$tertiary : #00BAD3;
 $light : #ffffff;
 
 $font-primary : 'Fraunces', serif;
@@ -12,6 +12,8 @@ $font-tertiary : 'Helvetica';
 
 
 $bg-primary : #FEF7ED;
+$bg-transparent : transparent;
+$bg-light : #ffffff;
 
 
 .text-primary {
@@ -32,6 +34,73 @@ $bg-primary : #FEF7ED;
 
 * {
 	body {
+
+		.modal {
+			&.popup-chnnyc {
+				.modal-content {
+
+					.modal-header {
+						background-color: $tertiary;
+						button {
+							&.close {
+								font-family: $font-secondary;
+								font-size: 14px;
+								line-height: 18px;
+								color: $light;
+								text-shadow: none;
+								opacity: 1;
+							}
+						}
+					}
+
+					.modal-body {
+
+						background-color: $bg-primary;
+
+						h2 {
+							text-align: center;
+							font-family: $font-primary;
+							font-size: 48px;
+							line-height: 48px;
+							color: $primary;
+						}
+						p {
+							text-align: center;
+							font-family: $font-secondary;
+							font-size: 18px;
+							line-height: 22px;
+							color: $primary;
+							a  {
+
+								font-weight: 700;
+								color: $secondary;
+
+								&.btn {
+									transition: background-color 0.5s ease;
+									font-family: $font-secondary;
+									background-color: $secondary;
+									border-color: $secondary;
+									color: $light;
+									font-size: 16px;
+									line-height: 19px;
+									border: 1.5px solid $secondary;
+									border-radius: 78px;
+									padding: 13px 40px 10px 40px;
+
+									&:hover {
+										background-color: $bg-transparent;
+										color: $secondary;
+									}
+								}
+							}
+						}
+
+					}
+
+				}
+
+			}
+		}
 
 		.bg-primary {
 			background-color: $bg-primary!important;
@@ -67,6 +136,7 @@ $bg-primary : #FEF7ED;
 					color: $secondary;
 
 					&.btn {
+						transition: background-color 0.5s ease;
 						font-family: $font-secondary;
 						background-color: $secondary;
 						border-color: $secondary;
@@ -76,6 +146,32 @@ $bg-primary : #FEF7ED;
 						border: 1.5px solid $secondary;
 						border-radius: 78px;
 						padding: 13px 40px 10px 40px;
+						&:hover {
+							background-color: $bg-transparent;
+							color: $secondary;
+						}
+
+						&.btn-secondary {
+							background-color: $bg-light;
+							border-color: $secondary;
+							color: $secondary;
+							font-size: 18px;
+							line-height: 22px;
+							border: 1.5px solid $secondary;
+							margin: 0 10px 10px 10px;
+							&:hover {
+								background-color: $secondary;
+								color: $light;
+							}
+							&:first-child {
+								margin: 0 10px 10px 0px;
+							}
+
+							&:last-child {
+								margin: 0 0px 10px 10px;
+							}
+						}
+
 					}
 				}
 			}
@@ -156,6 +252,17 @@ $bg-primary : #FEF7ED;
 						font-size: 20px;
 						line-height: 24px;
 					}
+				}
+			}
+
+			&.vc-yellow-block-with-buttons {
+				h2 {
+					font-size: 36px;
+					line-height: 36px;
+					font-family: $font-primary;
+					border: 0;
+					padding-bottom: 0;
+					margin-bottom: 2rem;
 				}
 			}
 		}
