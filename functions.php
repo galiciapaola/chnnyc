@@ -150,6 +150,7 @@ function chnnyc_scripts() {
 	
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/bower_components/bootstrap/dist/css/bootstrap.min.css' );
 	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/bower_components/bootstrap/dist/js/bootstrap.bundle.js', ["jquery"], _S_VERSION, true );
+	wp_enqueue_script( 'chnnyc-custom', get_template_directory_uri() . '/js/chnnyc.js', ["jquery"], _S_VERSION, true );
 }
 add_action( 'wp_enqueue_scripts', 'chnnyc_scripts' );
 

@@ -1,22 +1,46 @@
 @media (max-width: 575px) {
-  /* line 18, ../sass/responsive.scss */
+  /* line 22, ../sass/responsive.scss */
+  * body .modal.popup-chnnyc .modal-content .modal-header button.close {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  /* line 31, ../sass/responsive.scss */
+  * body .modal.popup-chnnyc .modal-content .modal-body h2 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+  /* line 35, ../sass/responsive.scss */
+  * body .modal.popup-chnnyc .modal-content .modal-body p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  /* line 38, ../sass/responsive.scss */
+  * body .modal.popup-chnnyc .modal-content .modal-body p a {
+    font-weight: 700;
+  }
+  /* line 42, ../sass/responsive.scss */
+  * body .modal.popup-chnnyc .modal-content .modal-body p a.btn {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  /* line 59, ../sass/responsive.scss */
   * body .vc-custom h1 {
     font-size: 56px;
     line-height: 60px;
   }
-  /* line 22, ../sass/responsive.scss */
+  /* line 63, ../sass/responsive.scss */
   * body .vc-custom h2 {
     font-size: 18px;
     line-height: 22px;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
   }
-  /* line 29, ../sass/responsive.scss */
+  /* line 70, ../sass/responsive.scss */
   * body .vc-custom p {
     font-size: 18px;
     line-height: 22px;
   }
-  /* line 36, ../sass/responsive.scss */
+  /* line 77, ../sass/responsive.scss */
   * body .vc-custom a.btn {
     font-size: 16px;
     line-height: 19px;
