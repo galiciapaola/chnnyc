@@ -12,5 +12,6 @@ function vc_before_init_actions() {
     require_once( get_stylesheet_directory() . '/vc-elements/vcTwoColumnListContainer.php' );
     require_once( get_stylesheet_directory() . '/vc-elements/vcPopUp.php' );
     require_once( get_stylesheet_directory() . '/vc-elements/vcYellowBlockWithButtons.php' );
+    require_once( get_stylesheet_directory() . '/vc-elements/vcFullWidthButton.php' );
     
 }
