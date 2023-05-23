@@ -12,6 +12,7 @@ $font-tertiary : 'Helvetica';
 
 
 $bg-primary : #FEF7ED;
+$bg-secondary : #00BAD3;
 $bg-transparent : transparent;
 $bg-light : #ffffff;
 
@@ -104,6 +105,10 @@ $bg-light : #ffffff;
 
 		.bg-primary {
 			background-color: $bg-primary!important;
+		}
+
+		.bg-secondary {
+			background-color: $bg-secondary!important;
 		}
 
 		.vc-custom {
