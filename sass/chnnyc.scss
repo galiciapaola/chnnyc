@@ -13,6 +13,7 @@ $font-tertiary : 'Helvetica';
 
 $bg-primary : #FEF7ED;
 $bg-secondary : #00BAD3;
+$bg-tertiary : #ededed;
 $bg-transparent : transparent;
 $bg-light : #ffffff;
 
@@ -32,6 +33,9 @@ $bg-light : #ffffff;
 .debug {
 	border: 1px dotted green;
 }
+
+
+
 
 * {
 	body {
@@ -109,6 +113,10 @@ $bg-light : #ffffff;
 
 		.bg-secondary {
 			background-color: $bg-secondary!important;
+		}
+
+		.bg-tertiary {
+			background-color: $bg-tertiary!important;
 		}
 
 		.vc-custom {
@@ -269,6 +277,60 @@ $bg-light : #ffffff;
 					padding-bottom: 0;
 					margin-bottom: 2rem;
 				}
+			}
+
+			&.vc-accordion-links {
+
+				ul {
+					&.level-one {
+
+						text-align: center;
+						list-style-type: none;
+					}
+					li {
+						&.level-one {
+							border-bottom: 0;
+							> ul {
+								padding: 0;
+								margin-left: 0;
+								text-align: left;
+								list-style-type: none;
+								li {
+									&.level-two {
+										border-bottom: 0;
+
+										font-weight: 600;
+
+										ul {
+											margin-top: 1rem;
+											&::before{
+												display: block;
+												    content: '';
+												    border-top: 1px solid $primary;
+												    padding-top: 16px;
+												    position: relative;
+												    left: -20px;
+											}
+											li {
+												&.level-three {
+													border-bottom: 0;
+													a {
+														font-weight: 400;
+														text-decoration: underline;
+														font-size: 18px;
+														line-height: 21px;
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+
+						}
+					}
+				}
+				
 			}
 		}
 	}
