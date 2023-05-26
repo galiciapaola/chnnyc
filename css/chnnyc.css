@@ -276,16 +276,18 @@
 * body .vc-custom.vc-accordion-links ul li.level-one > ul li.level-two div {
   border-bottom: 1px solid #004A54;
   color: #004A54;
+  font-size: 20px;
+  line-height: 24px;
 }
-/* line 331, ../sass/chnnyc.scss */
+/* line 333, ../sass/chnnyc.scss */
 * body .vc-custom.vc-accordion-links ul li.level-one > ul li.level-two ul {
   margin-top: 1rem;
 }
-/* line 335, ../sass/chnnyc.scss */
+/* line 337, ../sass/chnnyc.scss */
 * body .vc-custom.vc-accordion-links ul li.level-one > ul li.level-two ul li.level-three {
   border-bottom: 0;
 }
-/* line 337, ../sass/chnnyc.scss */
+/* line 339, ../sass/chnnyc.scss */
 * body .vc-custom.vc-accordion-links ul li.level-one > ul li.level-two ul li.level-three a {
   font-weight: 400;
   text-decoration: underline;
