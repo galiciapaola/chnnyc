@@ -40,6 +40,16 @@ $bg-light : #ffffff;
 * {
 	body {
 
+		
+		.vc_column_container>.vc_column-inner,
+		.vc_row,
+		.vc_section {
+			padding-left: 0;
+			padding-right: 0;
+			margin-left: 0;
+			margin-right: 0;
+		}
+
 		.modal {
 			&.popup-chnnyc {
 				.modal-content {
@@ -286,10 +296,22 @@ $bg-light : #ffffff;
 
 						text-align: center;
 						list-style-type: none;
+						padding: 0;
+						margin: 0;
 					}
 					li {
 						&.level-one {
 							border-bottom: 0;
+							padding-bottom: 0;
+							margin-bottom: 0;
+							
+							> div {
+								font-size: 32px;
+								line-height: 34px;
+								font-family: $font-primary;
+								color: $primary;
+							}
+
 							> ul {
 								padding: 0;
 								margin-left: 0;
@@ -301,16 +323,14 @@ $bg-light : #ffffff;
 
 										font-weight: 600;
 
+										div {
+											border-bottom: 1px solid $secondary;
+											color: $secondary;
+										}
+
 										ul {
 											margin-top: 1rem;
-											&::before{
-												display: block;
-												    content: '';
-												    border-top: 1px solid $primary;
-												    padding-top: 16px;
-												    position: relative;
-												    left: -20px;
-											}
+
 											li {
 												&.level-three {
 													border-bottom: 0;

@@ -133,10 +133,12 @@ class vcAccordionLinks extends WPBakeryShortCode {
 
         foreach ($level_one as &$item_level_one) {
 
-            $bg = @$cnt1++%2==0 ? "bg-primary_" : "bg-tertiary_";
+            $bg = @$cnt1++%2==0 ? "bg-primary" : "bg-tertiary";
 
             
-            $html_links .= '<li class="'. $bg .' level-one" data-toggle="collapse" data-target="#'. self::stringify(  $item_level_one['title'] ) .'">'. $item_level_one['title'] .' <img src="'. get_stylesheet_directory_uri() .'/img/arrow_forward_ios.svg">';
+            $html_links .= '
+                <li class="level-one" data-toggle="collapse" data-target="#'. self::stringify(  $item_level_one['title'] ) .'">
+                    <div class="'. $bg .' py-3">'. $item_level_one['title'] .' <img src="'. get_stylesheet_directory_uri() .'/img/arrow_forward_ios.svg"></div>';
             
             $item_level_one['items_level_two'] = vc_param_group_parse_atts( $item_level_one['level_two'] );
 
@@ -163,7 +165,8 @@ class vcAccordionLinks extends WPBakeryShortCode {
                 if( $izquierda_o_derecha == 'izquierda' ){
 
                     
-                    $columna_izquierda .= '<li class="level-two">'. $item_level_two['subtitle'] .'';
+                    $columna_izquierda .= '<li class="level-two">
+                                            <div class="pl-3 pb-3 mb-4 ml-3">'. $item_level_two['subtitle'] .'</div>';
 
                     $item_level_two['items_level_three'] = vc_param_group_parse_atts( $item_level_two['level_three'] );
 
@@ -189,7 +192,8 @@ class vcAccordionLinks extends WPBakeryShortCode {
 
                 }else{
                     
-                    $columna_derecha .= '<li class="level-two">'. $item_level_two['subtitle'] .'';
+                    $columna_derecha .= '<li class="level-two">
+                                            <div class="pl-3 pb-3 mb-4 ml-3">'. $item_level_two['subtitle'] .'</div>';
 
                     $item_level_two['items_level_three'] = vc_param_group_parse_atts( $item_level_two['level_three'] );
 
@@ -221,7 +225,7 @@ class vcAccordionLinks extends WPBakeryShortCode {
             }
             
             if( !empty( $columna_izquierda ) ){
-                $izquierda .= '<div class="col-12 col-md-6 izquierda pr-md-3">'. $columna_izquierda .'</div>';    
+                $izquierda .= '<div class="col-12 col-md-6 izquierda  px-2 pr-md-2">'. $columna_izquierda .'</div>';    
                 
             }else{
                 $izquierda .= '';
@@ -229,7 +233,7 @@ class vcAccordionLinks extends WPBakeryShortCode {
             }
             
             if( !empty( $columna_derecha ) ){
-                $derecha .= '<div class="col-12 col-md-6 derecha pl-md-3">'. $columna_derecha .'</div>';    
+                $derecha .= '<div class="col-12 col-md-6 derecha px-2 pl-md-2">'. $columna_derecha .'</div>';    
                 
             }else{
                 $derecha .= '';
@@ -239,7 +243,15 @@ class vcAccordionLinks extends WPBakeryShortCode {
             $columna_izquierda = '';
             $columna_derecha = '';
             
-            $html_links .= '<div class="row no-gutters">'. $izquierda . $derecha .'</div>';
+            $html_links .= '
+                <div class="row no-gutters">
+                    <div class="col-12 col-md-10 col-lg-11 col-xl-9 mx-auto">
+                        <div class="row no-gutters">
+                            '. $izquierda . $derecha .'
+                        </div>
+                    </div>
+                </div>
+            ';
             
 
             
