@@ -294,3 +294,85 @@
   font-size: 18px;
   line-height: 21px;
 }
+/* line 361, ../sass/chnnyc.scss */
+* body .vc-custom.vc-two-column-contact-form div.title-container, * body .vc-custom.vc-contact-form div.title-container {
+  background-color: #FEF7ED;
+}
+/* line 366, ../sass/chnnyc.scss */
+* body .vc-custom.vc-two-column-contact-form form, * body .vc-custom.vc-contact-form form {
+  width: 100% !important;
+  display: block;
+}
+/* line 370, ../sass/chnnyc.scss */
+* body .vc-custom.vc-two-column-contact-form form ::placeholder, * body .vc-custom.vc-contact-form form ::placeholder {
+  color: #004A54;
+  opacity: 1;
+}
+/* line 375, ../sass/chnnyc.scss */
+* body .vc-custom.vc-two-column-contact-form form :-ms-input-placeholder, * body .vc-custom.vc-contact-form form :-ms-input-placeholder {
+  color: #004A54;
+}
+/* line 379, ../sass/chnnyc.scss */
+* body .vc-custom.vc-two-column-contact-form form ::-ms-input-placeholder, * body .vc-custom.vc-contact-form form ::-ms-input-placeholder {
+  color: #004A54;
+}
+/* line 383, ../sass/chnnyc.scss */
+* body .vc-custom.vc-two-column-contact-form form p, * body .vc-custom.vc-contact-form form p {
+  width: 100% !important;
+  display: block;
+}
+/* line 387, ../sass/chnnyc.scss */
+* body .vc-custom.vc-two-column-contact-form form p label, * body .vc-custom.vc-contact-form form p label {
+  width: 100% !important;
+  display: block;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: #004A54;
+  color: #004A54;
+}
+/* line 395, ../sass/chnnyc.scss */
+* body .vc-custom.vc-two-column-contact-form form p label span, * body .vc-custom.vc-contact-form form p label span {
+  width: 100% !important;
+  display: block;
+}
+/* line 399, ../sass/chnnyc.scss */
+* body .vc-custom.vc-two-column-contact-form form p label span textarea,
+* body .vc-custom.vc-two-column-contact-form form p label span input, * body .vc-custom.vc-contact-form form p label span textarea,
+* body .vc-custom.vc-contact-form form p label span input {
+  padding-left: 0;
+  margin-top: 1rem;
+  color: #004A54;
+  width: 100% !important;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #004A54;
+}
+/* line 409, ../sass/chnnyc.scss */
+* body .vc-custom.vc-two-column-contact-form form p label span textarea[type="submit"],
+* body .vc-custom.vc-two-column-contact-form form p label span input[type="submit"], * body .vc-custom.vc-contact-form form p label span textarea[type="submit"],
+* body .vc-custom.vc-contact-form form p label span input[type="submit"] {
+  background-color: #FEF7ED;
+}
+/* line 419, ../sass/chnnyc.scss */
+* body .vc-custom.vc-two-column-contact-form form p input[type="submit"], * body .vc-custom.vc-contact-form form p input[type="submit"] {
+  background-color: #004A54;
+  color: #ffffff;
+  padding: 13px 23px 13px 23px;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 25px;
+}
+/* line 435, ../sass/chnnyc.scss */
+* body .vc-custom.vc-two-column-contact-form .sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+/* line 441, ../sass/chnnyc.scss */
+* body .vc-custom.vc-two-column-contact-form h2 {
+  font-family: "Fraunces", serif;
+  color: #00161A;
+  font-size: 36px;
+  line-height: 36px;
+  border: 0;
+}
