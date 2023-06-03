@@ -354,6 +354,80 @@ $bg-light : #ffffff;
 				}
 				
 			}
+
+			&.vc-contact-form {
+				div {
+					&.title-container {
+						background-color: $bg-primary;
+					}
+				}
+
+				form {
+					width: 100%!important;
+					display: block;
+
+					::placeholder { 
+					  color: $secondary;
+					  opacity: 1; 
+					}
+
+					:-ms-input-placeholder { 
+					  color: $secondary;
+					}
+
+					::-ms-input-placeholder { 
+					  color: $secondary;
+					}
+
+					p {
+						width: 100%!important;
+						display: block;
+
+						label {
+							width: 100%!important;
+							display: block;
+							font-size: 16px;
+							line-height: 18px;
+							font-family: $secondary;
+							color: $secondary;
+
+							span {
+								width: 100%!important;
+								display: block;
+
+								textarea,
+								input {
+									padding-left: 0;
+									margin-top: 1rem;
+									color: $secondary;
+									width: 100%!important;
+									border:0;
+									border-radius: 0;
+									border-bottom: 1px solid $secondary;
+
+									&[type="submit"] {
+										background-color: $bg-primary;
+									}
+								}
+							}
+
+						}
+						
+						input {
+
+							&[type="submit"] {
+								background-color: $primary;
+								color: $light;
+								padding: 13px 23px 13px 23px;
+								font-size: 16px;
+								line-height: 19px;
+								border-radius: 25px;
+							}
+							
+						}
+					}
+				}
+			}
 		}
 	}
 }
