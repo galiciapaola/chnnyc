@@ -100,6 +100,8 @@ function chnnyc_setup() {
 		)
 	);
 
+	add_image_size( "icon", 150, 150, false );
+
 	// disable for posts
 	add_filter('use_block_editor_for_post', '__return_false', 10);
 

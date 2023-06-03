@@ -376,3 +376,18 @@
   line-height: 36px;
   border: 0;
 }
+/* line 451, ../sass/chnnyc.scss */
+* body .vc-custom.vc-icon-banner img {
+  max-height: 100px;
+}
+/* line 454, ../sass/chnnyc.scss */
+* body .vc-custom.vc-icon-banner a {
+  text-decoration: none;
+}
+/* line 457, ../sass/chnnyc.scss */
+* body .vc-custom.vc-icon-banner p {
+  font-size: 32px;
+  line-height: 32px;
+  color: #004A54;
+  font-family: "Fraunces", serif;
+}

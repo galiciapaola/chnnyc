@@ -75,4 +75,17 @@
   * body .vc-custom.vc-yellow-block-with-buttons p a.btn.btn-secondary:last-child {
     margin: 10px 0;
   }
+  /* line 141, ../sass/responsive.scss */
+  * body .vc-custom.vc-icon-banner img {
+    max-height: 70px;
+  }
+  /* line 144, ../sass/responsive.scss */
+  * body .vc-custom.vc-icon-banner a {
+    text-decoration: none;
+  }
+  /* line 147, ../sass/responsive.scss */
+  * body .vc-custom.vc-icon-banner p {
+    font-size: 24px;
+    line-height: 24px;
+  }
 }
