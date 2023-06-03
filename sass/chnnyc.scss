@@ -446,6 +446,21 @@ $bg-light : #ffffff;
 					border: 0;
 				}
 			}
+
+			&.vc-icon-banner {
+				img {
+					max-height: 100px;
+				}
+				a {
+					text-decoration: none;
+				}
+				p {
+					font-size: 32px;
+					line-height: 32px;
+					color: $secondary;
+					font-family: $font-primary;
+				}
+			}
 		}
 	}
 }
