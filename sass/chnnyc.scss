@@ -355,6 +355,7 @@ $bg-light : #ffffff;
 				
 			}
 
+			&.vc-two-column-contact-form,
 			&.vc-contact-form {
 				div {
 					&.title-container {
@@ -416,7 +417,7 @@ $bg-light : #ffffff;
 						input {
 
 							&[type="submit"] {
-								background-color: $primary;
+								background-color: $secondary;
 								color: $light;
 								padding: 13px 23px 13px 23px;
 								font-size: 16px;
@@ -426,6 +427,23 @@ $bg-light : #ffffff;
 							
 						}
 					}
+				}
+			}
+
+			&.vc-two-column-contact-form {
+
+				.sticky {
+					position: -webkit-sticky;
+					position: sticky;
+					top: 0px; 
+				}
+
+				h2 {
+					font-family: $font-primary;
+					color: $primary;
+					font-size: 36px;
+					line-height: 36px;
+					border: 0;
 				}
 			}
 		}
