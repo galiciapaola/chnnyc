@@ -130,6 +130,12 @@ $bg-light : #ffffff;
 		}
 
 		.vc-custom {
+
+			.sticky {
+				position: -webkit-sticky;
+				position: sticky;
+				top: 0px; 
+			}
 			
 			h1 {
 				font-family: $font-primary;
@@ -222,6 +228,10 @@ $bg-light : #ffffff;
 
 
 			&.vc-intro {
+
+				h2 {
+					color: $primary;
+				}
 				
 				.content-centered {
 					h1 {
@@ -432,11 +442,6 @@ $bg-light : #ffffff;
 
 			&.vc-two-column-contact-form {
 
-				.sticky {
-					position: -webkit-sticky;
-					position: sticky;
-					top: 0px; 
-				}
 
 				h2 {
 					font-family: $font-primary;
@@ -459,6 +464,12 @@ $bg-light : #ffffff;
 					line-height: 32px;
 					color: $secondary;
 					font-family: $font-primary;
+				}
+			}
+
+			&.vc-team {
+				h2 {
+					color: $primary;
 				}
 			}
 		}
