@@ -130,6 +130,12 @@ $bg-light : #ffffff;
 		}
 
 		.vc-custom {
+
+			.sticky {
+				position: -webkit-sticky;
+				position: sticky;
+				top: 0px; 
+			}
 			
 			h1 {
 				font-family: $font-primary;
@@ -222,6 +228,10 @@ $bg-light : #ffffff;
 
 
 			&.vc-intro {
+
+				h2 {
+					color: $primary;
+				}
 				
 				.content-centered {
 					h1 {
@@ -432,11 +442,6 @@ $bg-light : #ffffff;
 
 			&.vc-two-column-contact-form {
 
-				.sticky {
-					position: -webkit-sticky;
-					position: sticky;
-					top: 0px; 
-				}
 
 				h2 {
 					font-family: $font-primary;
@@ -444,6 +449,46 @@ $bg-light : #ffffff;
 					font-size: 36px;
 					line-height: 36px;
 					border: 0;
+				}
+			}
+
+			&.vc-icon-banner {
+				img {
+					max-height: 100px;
+				}
+				a {
+					text-decoration: none;
+				}
+				p {
+					font-size: 32px;
+					line-height: 32px;
+					color: $secondary;
+					font-family: $font-primary;
+				}
+			}
+
+			&.vc-team {
+				h2 {
+					color: $primary;
+				}
+			}
+
+			&.vc-two-columns-team {
+				h2 {
+					font-family: $primary;
+					color: $secondary;
+					font-size: 36px;
+					line-height: 36px;
+					border: 0;
+				}
+				p {
+					font-family: $secondary;
+					color: $secondary;
+					font-size: 18px;
+					line-height: 22px;
+					b {
+						font-weight: 700;
+					}
 				}
 			}
 		}
