@@ -491,6 +491,17 @@ $bg-light : #ffffff;
 					}
 				}
 			}
+
+			&.vc-small-container-content {
+				p {
+					text-align: center;
+				}
+
+				ul {
+					margin-top: 4rem;
+				}
+			}
+
 		}
 	}
 }

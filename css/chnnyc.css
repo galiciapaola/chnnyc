@@ -418,3 +418,11 @@
 * body .vc-custom.vc-two-columns-team p b {
   font-weight: 700;
 }
+/* line 496, ../sass/chnnyc.scss */
+* body .vc-custom.vc-small-container-content p {
+  text-align: center;
+}
+/* line 500, ../sass/chnnyc.scss */
+* body .vc-custom.vc-small-container-content ul {
+  margin-top: 4rem;
+}
