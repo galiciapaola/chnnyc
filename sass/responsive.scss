@@ -149,6 +149,26 @@
 						line-height: 24px;
 					}
 				}
+
+				&.vc-three-column-block {
+
+					h1 {
+						
+					}
+
+					p {
+						font-size: 18px;
+						line-height: 22px;
+					}
+
+					.col-12.mx-auto {
+						border-right: 0;
+						border-bottom: 1px solid;
+						&:last-child {
+							border: 0;
+						}
+					}
+				}
 			}
 		}
 	}

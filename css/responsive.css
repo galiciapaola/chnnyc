@@ -88,4 +88,18 @@
     font-size: 24px;
     line-height: 24px;
   }
+  /* line 159, ../sass/responsive.scss */
+  * body .vc-custom.vc-three-column-block p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  /* line 164, ../sass/responsive.scss */
+  * body .vc-custom.vc-three-column-block .col-12.mx-auto {
+    border-right: 0;
+    border-bottom: 1px solid;
+  }
+  /* line 167, ../sass/responsive.scss */
+  * body .vc-custom.vc-three-column-block .col-12.mx-auto:last-child {
+    border: 0;
+  }
 }

@@ -19,5 +19,7 @@ function vc_before_init_actions() {
     require_once( get_stylesheet_directory() . '/vc-elements/vcIconBanner.php' );
     require_once( get_stylesheet_directory() . '/vc-elements/vcTeam.php' );
     require_once( get_stylesheet_directory() . '/vc-elements/vcTwoColumnTeam.php' );
+    require_once( get_stylesheet_directory() . '/vc-elements/vcSmallContainerContent.php' );
+    require_once( get_stylesheet_directory() . '/vc-elements/vcThreeColumnBlock.php' );
     
 }

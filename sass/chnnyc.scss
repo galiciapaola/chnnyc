@@ -5,6 +5,7 @@ $primary : #00161A;
 $secondary : #004A54;
 $tertiary : #00BAD3;
 $light : #ffffff;
+$dark : #000000;
 
 $font-primary : 'Fraunces', serif;
 $font-secondary : 'Montserrat', sans-serif;
@@ -491,6 +492,37 @@ $bg-light : #ffffff;
 					}
 				}
 			}
+
+			&.vc-small-container-content {
+				p {
+					text-align: center;
+				}
+
+				ul {
+					margin-top: 4rem;
+				}
+			}
+
+			&.vc-three-column-block {
+
+				h1 {
+					color: $dark;
+				}
+
+				p {
+					font-size: 18px;
+					line-height: 22px;
+					color: $dark;
+				}
+
+				.col-12.mx-auto {
+					border-right: 1px solid $dark;
+					&:last-child {
+						border: 0;
+					}
+				}
+			}
+
 		}
 	}
 }
