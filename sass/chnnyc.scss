@@ -472,6 +472,25 @@ $bg-light : #ffffff;
 					color: $primary;
 				}
 			}
+
+			&.vc-two-columns-team {
+				h2 {
+					font-family: $primary;
+					color: $secondary;
+					font-size: 36px;
+					line-height: 36px;
+					border: 0;
+				}
+				p {
+					font-family: $secondary;
+					color: $secondary;
+					font-size: 18px;
+					line-height: 22px;
+					b {
+						font-weight: 700;
+					}
+				}
+			}
 		}
 	}
 }

@@ -399,3 +399,22 @@
 * body .vc-custom.vc-team h2 {
   color: #00161A;
 }
+/* line 477, ../sass/chnnyc.scss */
+* body .vc-custom.vc-two-columns-team h2 {
+  font-family: #00161A;
+  color: #004A54;
+  font-size: 36px;
+  line-height: 36px;
+  border: 0;
+}
+/* line 484, ../sass/chnnyc.scss */
+* body .vc-custom.vc-two-columns-team p {
+  font-family: #004A54;
+  color: #004A54;
+  font-size: 18px;
+  line-height: 22px;
+}
+/* line 489, ../sass/chnnyc.scss */
+* body .vc-custom.vc-two-columns-team p b {
+  font-weight: 700;
+}
