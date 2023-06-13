@@ -523,6 +523,14 @@ $bg-light : #ffffff;
 				}
 			}
 
+			&.vc-contact-intro {
+				h3 {
+					font-family: $font-primary;
+					color: $primary;
+					font-weight: 700;
+				}
+			}
+
 		}
 	}
 }
