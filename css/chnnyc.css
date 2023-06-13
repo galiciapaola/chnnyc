@@ -444,3 +444,9 @@
 * body .vc-custom.vc-three-column-block .col-12.mx-auto:last-child {
   border: 0;
 }
+/* line 527, ../sass/chnnyc.scss */
+* body .vc-custom.vc-contact-intro h3 {
+  font-family: "Fraunces", serif;
+  color: #00161A;
+  font-weight: 700;
+}
