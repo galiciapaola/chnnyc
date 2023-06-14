@@ -523,6 +523,30 @@ $bg-light : #ffffff;
 				}
 			}
 
+			&.vc-contact-intro {
+				h3 {
+					font-family: $font-primary;
+					color: $primary;
+					font-weight: 700;
+				}
+			}
+
+			&.vc-two-column-content-container {
+				h2 {
+					font-family: $font-primary;
+					font-size: 56px;
+					line-height: 53px;
+					color: $secondary;
+					border: 0;
+				}
+				p {
+					font-size: 18px;
+					line-height: 22px;
+					color: $primary;
+					font-family: $font-secondary;
+				}
+			}
+
 		}
 	}
 }

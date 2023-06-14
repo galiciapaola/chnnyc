@@ -21,5 +21,17 @@ function vc_before_init_actions() {
     require_once( get_stylesheet_directory() . '/vc-elements/vcTwoColumnTeam.php' );
     require_once( get_stylesheet_directory() . '/vc-elements/vcSmallContainerContent.php' );
     require_once( get_stylesheet_directory() . '/vc-elements/vcThreeColumnBlock.php' );
+    require_once( get_stylesheet_directory() . '/vc-elements/vcContactIntro.php' );
+    require_once( get_stylesheet_directory() . '/vc-elements/vcNested.php' );
+    require_once( get_stylesheet_directory() . '/vc-elements/vcNestedChild.php' );
     
+}
+
+if ( class_exists( 'WPBakeryShortCodesContainer' ) ) {
+  class WPBakeryShortCode_Vc_Nested extends WPBakeryShortCodesContainer {
+  }
+}
+if ( class_exists( 'WPBakeryShortCode' ) ) {
+  class WPBakeryShortCode_Vc_Nested_Child extends WPBakeryShortCode {
+  }
 }
