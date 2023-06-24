@@ -57,19 +57,19 @@
 			.vc-custom {
 					
 				h1 {
-					font-size: 56px;
-					line-height: 60px;
+					font-size: 35px;
+					line-height: 40px;
 				}
 				h2 {
-					font-size: 18px;
-					line-height: 22px;
+					font-size: 14px;
+					line-height: 18px;
 					padding-bottom: 1rem;
 					margin-bottom: 1rem;
 				}
 
 				p {
-					font-size: 18px;
-					line-height: 22px;
+					font-size: 16px;
+					line-height: 20px;
 				}
 
 				a  {
@@ -98,6 +98,13 @@
 						}
 					}
 
+				}
+
+				&.vc-contact-intro {
+					h3 {
+						font-size: 20px;
+						line-height: 22px;
+					}
 				}
 
 				&.vc-two-column-contact-form {
