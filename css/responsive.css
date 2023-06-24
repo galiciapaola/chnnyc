@@ -25,20 +25,20 @@
   }
   /* line 59, ../sass/responsive.scss */
   * body .vc-custom h1 {
-    font-size: 56px;
-    line-height: 60px;
+    font-size: 35px;
+    line-height: 40px;
   }
   /* line 63, ../sass/responsive.scss */
   * body .vc-custom h2 {
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 14px;
+    line-height: 18px;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
   }
   /* line 70, ../sass/responsive.scss */
   * body .vc-custom p {
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 20px;
   }
   /* line 77, ../sass/responsive.scss */
   * body .vc-custom a.btn {
@@ -48,57 +48,62 @@
     padding: 13px 40px 10px 40px;
   }
   /* line 104, ../sass/responsive.scss */
+  * body .vc-custom.vc-contact-intro h3 {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  /* line 111, ../sass/responsive.scss */
   * body .vc-custom.vc-two-column-contact-form .sticky {
     position: relative;
   }
-  /* line 110, ../sass/responsive.scss */
+  /* line 117, ../sass/responsive.scss */
   * body .vc-custom.vc-yellow-block-with-buttons h2 {
     font-size: 30px;
     line-height: 30px;
   }
-  /* line 117, ../sass/responsive.scss */
+  /* line 124, ../sass/responsive.scss */
   * body .vc-custom.vc-yellow-block-with-buttons p a.btn {
     padding: 8px 25px 8px 25px;
   }
-  /* line 121, ../sass/responsive.scss */
+  /* line 128, ../sass/responsive.scss */
   * body .vc-custom.vc-yellow-block-with-buttons p a.btn.btn-secondary {
     display: block !important;
     font-size: 14px;
     line-height: 18px;
     margin: 10px 0;
   }
-  /* line 128, ../sass/responsive.scss */
+  /* line 135, ../sass/responsive.scss */
   * body .vc-custom.vc-yellow-block-with-buttons p a.btn.btn-secondary:first-child {
     margin: 10px 0;
   }
-  /* line 131, ../sass/responsive.scss */
+  /* line 138, ../sass/responsive.scss */
   * body .vc-custom.vc-yellow-block-with-buttons p a.btn.btn-secondary:last-child {
     margin: 10px 0;
   }
-  /* line 141, ../sass/responsive.scss */
+  /* line 148, ../sass/responsive.scss */
   * body .vc-custom.vc-icon-banner img {
     max-height: 70px;
   }
-  /* line 144, ../sass/responsive.scss */
+  /* line 151, ../sass/responsive.scss */
   * body .vc-custom.vc-icon-banner a {
     text-decoration: none;
   }
-  /* line 147, ../sass/responsive.scss */
+  /* line 154, ../sass/responsive.scss */
   * body .vc-custom.vc-icon-banner p {
     font-size: 24px;
     line-height: 24px;
   }
-  /* line 159, ../sass/responsive.scss */
+  /* line 166, ../sass/responsive.scss */
   * body .vc-custom.vc-three-column-block p {
     font-size: 18px;
     line-height: 22px;
   }
-  /* line 164, ../sass/responsive.scss */
+  /* line 171, ../sass/responsive.scss */
   * body .vc-custom.vc-three-column-block .col-12.mx-auto {
     border-right: 0;
     border-bottom: 1px solid;
   }
-  /* line 167, ../sass/responsive.scss */
+  /* line 174, ../sass/responsive.scss */
   * body .vc-custom.vc-three-column-block .col-12.mx-auto:last-child {
     border: 0;
   }

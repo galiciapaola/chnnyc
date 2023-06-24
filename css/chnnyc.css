@@ -465,3 +465,24 @@
   color: #00161A;
   font-family: "Montserrat", sans-serif;
 }
+/* line 551, ../sass/chnnyc.scss */
+* body .vc-custom.vc-locations h3 {
+  font-family: "Fraunces", serif;
+  font-size: 36px;
+  line-height: 36px;
+  color: #004A54;
+}
+/* line 558, ../sass/chnnyc.scss */
+* body .vc-custom.vc-locations ul {
+  margin-left: 0;
+}
+/* line 561, ../sass/chnnyc.scss */
+* body .vc-custom.vc-locations ul li {
+  border-bottom: 0;
+  color: #00161A;
+  padding-bottom: 0;
+}
+/* line 568, ../sass/chnnyc.scss */
+* body .vc-custom.vc-locations iframe {
+  border-radius: 20px;
+}

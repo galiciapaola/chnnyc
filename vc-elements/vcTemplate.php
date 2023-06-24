@@ -5,7 +5,7 @@ Element Description: VC Template
 
 // Element Class
 
-class vcTemplate extends WPBakeryShortCode {
+class vcLocations extends WPBakeryShortCode {
 
     
     function __construct() {
@@ -162,6 +162,6 @@ class vcTemplate extends WPBakeryShortCode {
 
 }
 
-new vcTemplate();
+new vcLocations();
 
 ?>
