@@ -547,6 +547,29 @@ $bg-light : #ffffff;
 				}
 			}
 
+			&.vc-locations {
+				h3 {
+					font-family: $font-primary;
+					font-size: 36px;
+					line-height: 36px;
+					color: $secondary;
+				}
+
+				ul {
+
+					margin-left: 0;
+					li {
+						border-bottom: 0;
+						color: $primary;
+						padding-bottom: 0;
+					}
+				}
+
+				iframe {
+					border-radius: 20px;
+				}
+			}
+
 		}
 	}
 }
