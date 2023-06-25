@@ -145,10 +145,14 @@ class vcContactIntro extends WPBakeryShortCode {
                         <div class="col-12 col-md-7 mr-auto">';
 
                 $html .= '<h3>'. $location['title'] .'</h3>';
+                
+                $html .= ( ! empty( $location['address'] ) ) || ( ! empty( $location['phone'] ) ) || ( ! empty( $location['email'] ) ) ? '<p>' : '';
+
                 $html .= ( ! empty( $location['address'] ) ) ? '<span class="d-block"><b>Address:</b> '. $location['address'] .'</span>' : '';
                 $html .= ( ! empty( $location['phone'] ) ) ? '<span class="d-block"><b>Phone:</b> '. $location['phone'] .'</span>' : '';
                 $html .= ( ! empty( $location['email'] ) ) ? '<span class="d-block"><b>Email:</b> '. $location['email'] .'</span>' : '';
                 
+                $html .= ( ! empty( $location['address'] ) ) || ( ! empty( $location['phone'] ) ) || ( ! empty( $location['email'] ) ) ? '</p>' : '';
 
                 $link = vc_build_link( $location['link'] );
                 if( ! empty( $link ) && $link['url'] != "" ){
