@@ -149,7 +149,7 @@ class vcTwoColumnTeam extends WPBakeryShortCode {
             
             if( !empty( $columna_izquierda ) ){
                 
-                $izquierda .= '<div class="col-10 col-md-6 izquierda  mx-auto px-2 pr-md-5">'. $columna_izquierda .'</div>';    
+                $izquierda .= '<div class="col-11 col-md-6 izquierda  mx-auto px-2 pr-md-5">'. $columna_izquierda .'</div>';    
 
             }else{
                 
@@ -159,7 +159,7 @@ class vcTwoColumnTeam extends WPBakeryShortCode {
             
             if( !empty( $columna_derecha ) ){
                 
-                $derecha .= '<div class="col-10 col-md-6 derecha mx-auto px-2 pl-md-5">'. $columna_derecha .'</div>';    
+                $derecha .= '<div class="col-11 col-md-6 derecha mx-auto px-2 pl-md-5">'. $columna_derecha .'</div>';    
 
             }else{
                 
