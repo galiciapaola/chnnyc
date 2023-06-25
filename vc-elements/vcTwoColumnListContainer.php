@@ -109,13 +109,13 @@ class vcTwoColumnListContainer extends WPBakeryShortCode {
         ';
         
 
-        // $html = '
-        //     <section class="vc-custom vc-two-column-list-container my-3 py-3 my-md-5 py-md-5">
-        //         <div class="container">
-        //             '. $html .'    
-        //         </div>
-        //     </section>
-        // ';
+        $html = '
+            <section class="vc-custom vc-two-column-list-container my-3 py-3 my-md-5 py-md-5">
+                <div class="container">
+                    '. $html .'    
+                </div>
+            </section>
+        ';
         
 
         return $html;
