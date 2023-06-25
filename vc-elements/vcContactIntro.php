@@ -62,9 +62,9 @@ class vcContactIntro extends WPBakeryShortCode {
                     ],
 
                     [
-                        "type"        => "attach_image",
-                        "heading"     => "Image",
-                        "description" => "Image",
+                        "type"        => "textarea_raw_html",
+                        "heading"     => "Map",
+                        "description" => "Google Map Iframe",
                         "param_name"  => "image",
                         "value"       => "",
                     ],
@@ -195,49 +195,24 @@ class vcContactIntro extends WPBakeryShortCode {
             )
         ); 
 
-        $image = wp_get_attachment_image_src( $image, 'full' );
-        $html_image = '';
-
-
         $html_locations = self::locations( $locations );
 
 
-        if ( $image ) {
-            $img_src = $image[0];
-
-            $html = '
-                <div class="row no-gutters">
-                    <div class="col-12 col-md-6 pr-md-5 order-2 order-md-1">
-                        <h2 class="mt-3 mt-md-0">'. $subtitle .'</h2>
-                        <h1>'. $title .'</h1>
-                        <div class="content py-4">
-                            '. apply_filters( "the_content", $content ) .'
-                        </div>
-                        '. $html_locations .'
+       $html = '
+            <div class="row no-gutters">
+                <div class="col-12 col-md-6 pr-md-5 order-2 order-md-1">
+                    <h2 class="mt-3 mt-md-0">'. $subtitle .'</h2>
+                    <h1>'. $title .'</h1>
+                    <div class="content py-4">
+                        '. apply_filters( "the_content", $content ) .'
                     </div>
-                    <div class="col-12 col-md-6 order-1 order-md-2">
-                        <img src="'. $img_src .'" alt="" class="img-fluid w-100">
-                    </div>
+                    '. $html_locations .'
                 </div>
-            ';
-
-        }else{
-             $html = '
-                <div class="row no-gutters">
-                    <div class="col-12 col-md-6 pr-md-5 order-2 order-md-1">
-                        <h2 class="mt-3 mt-md-0">'. $subtitle .'</h2>
-                        <h1>'. $title .'</h1>
-                        <div class="content py-4">
-                            '. apply_filters( "the_content", $content ) .'
-                        </div>
-                        '. $html_locations .'
-                    </div>
-                    <div class="col-12 col-md-6 order-1 order-md-2">
-                        
-                    </div>
+                <div class="col-12 col-md-6 order-1 order-md-2">
+                    '. urldecode( base64_decode( $image ) ) .'
                 </div>
-            ';
-        }
+            </div>
+        ';
 
 
         $html = '

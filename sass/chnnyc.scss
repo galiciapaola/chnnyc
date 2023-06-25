@@ -132,6 +132,10 @@ $bg-light : #ffffff;
 
 		.vc-custom {
 
+			iframe {
+				border-radius: 20px;
+			}
+
 			.sticky {
 				position: -webkit-sticky;
 				position: sticky;
@@ -565,9 +569,7 @@ $bg-light : #ffffff;
 					}
 				}
 
-				iframe {
-					border-radius: 20px;
-				}
+				
 			}
 
 		}
