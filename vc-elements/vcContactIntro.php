@@ -45,6 +45,21 @@ class vcContactIntro extends WPBakeryShortCode {
                     ],
 
                     [
+                        'type'        => 'dropdown',
+                        'heading'     => "Font Size",
+                        'param_name'  => 'font_size',
+                        'admin_label' => true,
+                        'value'       => [
+                            
+                            "Normal"  => '',
+                            "Small"   => 'small',
+                            "Smaller" => 'smaller',
+
+                        ],
+                        "description"    => "Choose the font size of the title"
+                    ],
+
+                    [
                         'type'        => 'textfield',
                         'value'       => '',
                         'heading'     => 'Subtitle',
@@ -190,6 +205,7 @@ class vcContactIntro extends WPBakeryShortCode {
                 [
                     'animation' => '',
                     'title'     => '',
+                    'font_size'     => '',
                     'subtitle'  => '',
                     'image'     => '',
                     'locations' => ''
@@ -206,7 +222,7 @@ class vcContactIntro extends WPBakeryShortCode {
             <div class="row no-gutters">
                 <div class="col-12 col-md-6 pr-md-5 order-2 order-md-1">
                     <h2 class="mt-3 mt-md-0">'. $subtitle .'</h2>
-                    <h1>'. $title .'</h1>
+                    <h1 class="'. $font_size .'">'. $title .'</h1>
                     <div class="content py-4">
                         '. apply_filters( "the_content", $content ) .'
                     </div>

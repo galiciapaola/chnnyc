@@ -115,6 +115,16 @@
   color: #00161A;
 }
 /* line 151, ../sass/chnnyc.scss */
+* body .vc-custom h1.small {
+  font-size: 44px;
+  line-height: 46px;
+}
+/* line 156, ../sass/chnnyc.scss */
+* body .vc-custom h1.smaller {
+  font-size: 35px;
+  line-height: 39px;
+}
+/* line 163, ../sass/chnnyc.scss */
 * body .vc-custom h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -124,19 +134,25 @@
   padding-bottom: 1rem;
   margin-bottom: 1rem;
 }
-/* line 161, ../sass/chnnyc.scss */
+/* line 173, ../sass/chnnyc.scss */
+* body .vc-custom h3 {
+  font-family: "Fraunces", serif;
+  color: #00161A;
+  font-weight: 700;
+}
+/* line 179, ../sass/chnnyc.scss */
 * body .vc-custom p {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   line-height: 22px;
   color: #00161A;
 }
-/* line 167, ../sass/chnnyc.scss */
+/* line 185, ../sass/chnnyc.scss */
 * body .vc-custom p a {
   font-weight: 700;
   color: #004A54;
 }
-/* line 172, ../sass/chnnyc.scss */
+/* line 190, ../sass/chnnyc.scss */
 * body .vc-custom p a.btn {
   transition: background-color 0.5s ease;
   font-family: "Montserrat", sans-serif;
@@ -149,12 +165,12 @@
   border-radius: 78px;
   padding: 13px 40px 10px 40px;
 }
-/* line 183, ../sass/chnnyc.scss */
+/* line 201, ../sass/chnnyc.scss */
 * body .vc-custom p a.btn:hover {
   background-color: transparent;
   color: #004A54;
 }
-/* line 188, ../sass/chnnyc.scss */
+/* line 206, ../sass/chnnyc.scss */
 * body .vc-custom p a.btn.btn-secondary {
   background-color: #ffffff;
   border-color: #004A54;
@@ -164,26 +180,26 @@
   border: 1.5px solid #004A54;
   margin: 0 10px 10px 10px;
 }
-/* line 196, ../sass/chnnyc.scss */
+/* line 214, ../sass/chnnyc.scss */
 * body .vc-custom p a.btn.btn-secondary:hover {
   background-color: #004A54;
   color: #ffffff;
 }
-/* line 200, ../sass/chnnyc.scss */
+/* line 218, ../sass/chnnyc.scss */
 * body .vc-custom p a.btn.btn-secondary:first-child {
   margin: 0 10px 10px 0px;
 }
-/* line 204, ../sass/chnnyc.scss */
+/* line 222, ../sass/chnnyc.scss */
 * body .vc-custom p a.btn.btn-secondary:last-child {
   margin: 0 0px 10px 10px;
 }
-/* line 213, ../sass/chnnyc.scss */
+/* line 231, ../sass/chnnyc.scss */
 * body .vc-custom ul {
   margin-top: 2rem;
   padding-left: 0;
   margin-left: 1rem;
 }
-/* line 217, ../sass/chnnyc.scss */
+/* line 235, ../sass/chnnyc.scss */
 * body .vc-custom ul li {
   font-size: 18px;
   line-height: 22px;
@@ -193,46 +209,46 @@
   border-bottom: 1px solid #004A54;
   margin-bottom: 1rem;
 }
-/* line 225, ../sass/chnnyc.scss */
+/* line 243, ../sass/chnnyc.scss */
 * body .vc-custom ul li a {
   font-weight: 700;
   color: #004A54;
 }
-/* line 237, ../sass/chnnyc.scss */
+/* line 255, ../sass/chnnyc.scss */
 * body .vc-custom.vc-intro h2 {
   color: #00161A;
 }
-/* line 242, ../sass/chnnyc.scss */
+/* line 260, ../sass/chnnyc.scss */
 * body .vc-custom.vc-intro .content-centered h1 {
   text-align: center;
 }
-/* line 245, ../sass/chnnyc.scss */
+/* line 263, ../sass/chnnyc.scss */
 * body .vc-custom.vc-intro .content-centered h2 {
   text-align: center;
 }
-/* line 248, ../sass/chnnyc.scss */
+/* line 266, ../sass/chnnyc.scss */
 * body .vc-custom.vc-intro .content-centered p {
   text-align: center;
 }
-/* line 258, ../sass/chnnyc.scss */
+/* line 276, ../sass/chnnyc.scss */
 * body .vc-custom.vc-yellow-block h1 {
   font-size: 56px;
   line-height: 56px;
 }
-/* line 262, ../sass/chnnyc.scss */
+/* line 280, ../sass/chnnyc.scss */
 * body .vc-custom.vc-yellow-block p {
   margin-bottom: 3rem;
   text-align: center;
 }
-/* line 265, ../sass/chnnyc.scss */
+/* line 283, ../sass/chnnyc.scss */
 * body .vc-custom.vc-yellow-block p:last-child {
   margin-bottom: 0;
 }
-/* line 272, ../sass/chnnyc.scss */
+/* line 290, ../sass/chnnyc.scss */
 * body .vc-custom.vc-full-width-container h1 {
   color: #004A54;
 }
-/* line 278, ../sass/chnnyc.scss */
+/* line 296, ../sass/chnnyc.scss */
 * body .vc-custom.vc-two-column-list-container h2 {
   color: #004A54;
   font-family: "Fraunces", serif;
@@ -240,12 +256,12 @@
   line-height: 36px;
   border-bottom: 0;
 }
-/* line 289, ../sass/chnnyc.scss */
+/* line 307, ../sass/chnnyc.scss */
 * body .vc-custom.vc-two-column-list-container ul li {
   font-size: 20px;
   line-height: 24px;
 }
-/* line 297, ../sass/chnnyc.scss */
+/* line 315, ../sass/chnnyc.scss */
 * body .vc-custom.vc-yellow-block-with-buttons h2 {
   font-size: 36px;
   line-height: 36px;
@@ -254,88 +270,88 @@
   padding-bottom: 0;
   margin-bottom: 2rem;
 }
-/* line 310, ../sass/chnnyc.scss */
+/* line 328, ../sass/chnnyc.scss */
 * body .vc-custom.vc-accordion-links ul.level-one {
   text-align: center;
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-/* line 318, ../sass/chnnyc.scss */
+/* line 336, ../sass/chnnyc.scss */
 * body .vc-custom.vc-accordion-links ul li.level-one {
   border-bottom: 0;
   padding-bottom: 0;
   margin-bottom: 0;
 }
-/* line 323, ../sass/chnnyc.scss */
+/* line 341, ../sass/chnnyc.scss */
 * body .vc-custom.vc-accordion-links ul li.level-one > div {
   font-size: 32px;
   line-height: 34px;
   font-family: "Fraunces", serif;
   color: #00161A;
 }
-/* line 330, ../sass/chnnyc.scss */
+/* line 348, ../sass/chnnyc.scss */
 * body .vc-custom.vc-accordion-links ul li.level-one > ul {
   padding: 0;
   margin-left: 0;
   text-align: left;
   list-style-type: none;
 }
-/* line 336, ../sass/chnnyc.scss */
+/* line 354, ../sass/chnnyc.scss */
 * body .vc-custom.vc-accordion-links ul li.level-one > ul li.level-two {
   border-bottom: 0;
   font-weight: 600;
 }
-/* line 341, ../sass/chnnyc.scss */
+/* line 359, ../sass/chnnyc.scss */
 * body .vc-custom.vc-accordion-links ul li.level-one > ul li.level-two div {
   border-bottom: 1px solid #004A54;
   color: #004A54;
   font-size: 20px;
   line-height: 24px;
 }
-/* line 348, ../sass/chnnyc.scss */
+/* line 366, ../sass/chnnyc.scss */
 * body .vc-custom.vc-accordion-links ul li.level-one > ul li.level-two ul {
   margin-top: 1rem;
 }
-/* line 352, ../sass/chnnyc.scss */
+/* line 370, ../sass/chnnyc.scss */
 * body .vc-custom.vc-accordion-links ul li.level-one > ul li.level-two ul li.level-three {
   border-bottom: 0;
 }
-/* line 354, ../sass/chnnyc.scss */
+/* line 372, ../sass/chnnyc.scss */
 * body .vc-custom.vc-accordion-links ul li.level-one > ul li.level-two ul li.level-three a {
   font-weight: 400;
   text-decoration: underline;
   font-size: 18px;
   line-height: 21px;
 }
-/* line 376, ../sass/chnnyc.scss */
+/* line 394, ../sass/chnnyc.scss */
 * body .vc-custom.vc-two-column-contact-form div.title-container, * body .vc-custom.vc-contact-form div.title-container {
   background-color: #FEF7ED;
 }
-/* line 381, ../sass/chnnyc.scss */
+/* line 399, ../sass/chnnyc.scss */
 * body .vc-custom.vc-two-column-contact-form form, * body .vc-custom.vc-contact-form form {
   width: 100% !important;
   display: block;
 }
-/* line 385, ../sass/chnnyc.scss */
+/* line 403, ../sass/chnnyc.scss */
 * body .vc-custom.vc-two-column-contact-form form ::placeholder, * body .vc-custom.vc-contact-form form ::placeholder {
   color: #004A54;
   opacity: 1;
 }
-/* line 390, ../sass/chnnyc.scss */
+/* line 408, ../sass/chnnyc.scss */
 * body .vc-custom.vc-two-column-contact-form form :-ms-input-placeholder, * body .vc-custom.vc-contact-form form :-ms-input-placeholder {
   color: #004A54;
 }
-/* line 394, ../sass/chnnyc.scss */
+/* line 412, ../sass/chnnyc.scss */
 * body .vc-custom.vc-two-column-contact-form form ::-ms-input-placeholder, * body .vc-custom.vc-contact-form form ::-ms-input-placeholder {
   color: #004A54;
 }
-/* line 398, ../sass/chnnyc.scss */
+/* line 416, ../sass/chnnyc.scss */
 * body .vc-custom.vc-two-column-contact-form form p, * body .vc-custom.vc-contact-form form p {
   width: 100% !important;
   display: block;
 }
-/* line 402, ../sass/chnnyc.scss */
+/* line 420, ../sass/chnnyc.scss */
 * body .vc-custom.vc-two-column-contact-form form p label, * body .vc-custom.vc-contact-form form p label {
   width: 100% !important;
   display: block;
@@ -344,12 +360,12 @@
   font-family: #004A54;
   color: #004A54;
 }
-/* line 410, ../sass/chnnyc.scss */
+/* line 428, ../sass/chnnyc.scss */
 * body .vc-custom.vc-two-column-contact-form form p label span, * body .vc-custom.vc-contact-form form p label span {
   width: 100% !important;
   display: block;
 }
-/* line 414, ../sass/chnnyc.scss */
+/* line 432, ../sass/chnnyc.scss */
 * body .vc-custom.vc-two-column-contact-form form p label span textarea,
 * body .vc-custom.vc-two-column-contact-form form p label span input, * body .vc-custom.vc-contact-form form p label span textarea,
 * body .vc-custom.vc-contact-form form p label span input {
@@ -361,13 +377,13 @@
   border-radius: 0;
   border-bottom: 1px solid #004A54;
 }
-/* line 424, ../sass/chnnyc.scss */
+/* line 442, ../sass/chnnyc.scss */
 * body .vc-custom.vc-two-column-contact-form form p label span textarea[type="submit"],
 * body .vc-custom.vc-two-column-contact-form form p label span input[type="submit"], * body .vc-custom.vc-contact-form form p label span textarea[type="submit"],
 * body .vc-custom.vc-contact-form form p label span input[type="submit"] {
   background-color: #FEF7ED;
 }
-/* line 434, ../sass/chnnyc.scss */
+/* line 452, ../sass/chnnyc.scss */
 * body .vc-custom.vc-two-column-contact-form form p input[type="submit"], * body .vc-custom.vc-contact-form form p input[type="submit"] {
   background-color: #004A54;
   color: #ffffff;
@@ -376,7 +392,7 @@
   line-height: 19px;
   border-radius: 25px;
 }
-/* line 451, ../sass/chnnyc.scss */
+/* line 469, ../sass/chnnyc.scss */
 * body .vc-custom.vc-two-column-contact-form h2 {
   font-family: "Fraunces", serif;
   color: #00161A;
@@ -384,26 +400,26 @@
   line-height: 36px;
   border: 0;
 }
-/* line 461, ../sass/chnnyc.scss */
+/* line 479, ../sass/chnnyc.scss */
 * body .vc-custom.vc-icon-banner img {
   max-height: 100px;
 }
-/* line 464, ../sass/chnnyc.scss */
+/* line 482, ../sass/chnnyc.scss */
 * body .vc-custom.vc-icon-banner a {
   text-decoration: none;
 }
-/* line 467, ../sass/chnnyc.scss */
+/* line 485, ../sass/chnnyc.scss */
 * body .vc-custom.vc-icon-banner p {
   font-size: 32px;
   line-height: 32px;
   color: #004A54;
   font-family: "Fraunces", serif;
 }
-/* line 476, ../sass/chnnyc.scss */
+/* line 494, ../sass/chnnyc.scss */
 * body .vc-custom.vc-team h2 {
   color: #00161A;
 }
-/* line 482, ../sass/chnnyc.scss */
+/* line 500, ../sass/chnnyc.scss */
 * body .vc-custom.vc-two-columns-team h2 {
   font-family: #00161A;
   color: #004A54;
@@ -411,50 +427,44 @@
   line-height: 36px;
   border: 0;
 }
-/* line 489, ../sass/chnnyc.scss */
+/* line 507, ../sass/chnnyc.scss */
 * body .vc-custom.vc-two-columns-team p {
   font-family: #004A54;
   color: #004A54;
   font-size: 18px;
   line-height: 22px;
 }
-/* line 494, ../sass/chnnyc.scss */
+/* line 512, ../sass/chnnyc.scss */
 * body .vc-custom.vc-two-columns-team p b {
   font-weight: 700;
 }
-/* line 501, ../sass/chnnyc.scss */
+/* line 519, ../sass/chnnyc.scss */
 * body .vc-custom.vc-small-container-content p {
   text-align: center;
 }
-/* line 505, ../sass/chnnyc.scss */
+/* line 523, ../sass/chnnyc.scss */
 * body .vc-custom.vc-small-container-content ul {
   margin-top: 4rem;
 }
-/* line 512, ../sass/chnnyc.scss */
+/* line 530, ../sass/chnnyc.scss */
 * body .vc-custom.vc-three-column-block h1 {
   color: #000000;
 }
-/* line 516, ../sass/chnnyc.scss */
+/* line 534, ../sass/chnnyc.scss */
 * body .vc-custom.vc-three-column-block p {
   font-size: 18px;
   line-height: 22px;
   color: #000000;
 }
-/* line 522, ../sass/chnnyc.scss */
+/* line 540, ../sass/chnnyc.scss */
 * body .vc-custom.vc-three-column-block .col-12.mx-auto {
   border-right: 1px solid #000000;
 }
-/* line 524, ../sass/chnnyc.scss */
+/* line 542, ../sass/chnnyc.scss */
 * body .vc-custom.vc-three-column-block .col-12.mx-auto:last-child {
   border: 0;
 }
-/* line 531, ../sass/chnnyc.scss */
-* body .vc-custom.vc-contact-intro h3 {
-  font-family: "Fraunces", serif;
-  color: #00161A;
-  font-weight: 700;
-}
-/* line 539, ../sass/chnnyc.scss */
+/* line 553, ../sass/chnnyc.scss */
 * body .vc-custom.vc-two-column-content-container h2 {
   font-family: "Fraunces", serif;
   font-size: 56px;
@@ -462,25 +472,25 @@
   color: #004A54;
   border: 0;
 }
-/* line 546, ../sass/chnnyc.scss */
+/* line 560, ../sass/chnnyc.scss */
 * body .vc-custom.vc-two-column-content-container p {
   font-size: 18px;
   line-height: 22px;
   color: #00161A;
   font-family: "Montserrat", sans-serif;
 }
-/* line 555, ../sass/chnnyc.scss */
+/* line 569, ../sass/chnnyc.scss */
 * body .vc-custom.vc-locations h3 {
   font-family: "Fraunces", serif;
   font-size: 36px;
   line-height: 36px;
   color: #004A54;
 }
-/* line 562, ../sass/chnnyc.scss */
+/* line 576, ../sass/chnnyc.scss */
 * body .vc-custom.vc-locations ul {
   margin-left: 0;
 }
-/* line 565, ../sass/chnnyc.scss */
+/* line 579, ../sass/chnnyc.scss */
 * body .vc-custom.vc-locations ul li {
   border-bottom: 0;
   color: #00161A;
