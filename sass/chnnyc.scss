@@ -147,7 +147,19 @@ $bg-light : #ffffff;
 				font-size: 66px;
 				line-height: 63px;
 				color: $primary;
+
+				&.small {
+					font-size: 44px;
+					line-height: 46px;
+				}
+
+				&.smaller {
+					font-size: 35px;
+					line-height: 39px;
+				}
+
 			}
+
 			h2 {
 				font-family: $font-secondary;
 				font-weight: 600;
@@ -156,6 +168,12 @@ $bg-light : #ffffff;
 				border-bottom: 2px solid $primary;
 				padding-bottom: 1rem;
 				margin-bottom: 1rem;
+			}
+
+			h3 {
+				font-family: $font-primary;
+				color: $primary;
+				font-weight: 700;
 			}
 
 			p {
@@ -528,11 +546,7 @@ $bg-light : #ffffff;
 			}
 
 			&.vc-contact-intro {
-				h3 {
-					font-family: $font-primary;
-					color: $primary;
-					font-weight: 700;
-				}
+				
 			}
 
 			&.vc-two-column-content-container {
