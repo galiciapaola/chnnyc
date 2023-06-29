@@ -51,9 +51,9 @@ class vcContactIntro extends WPBakeryShortCode {
                         'admin_label' => true,
                         'value'       => [
                             
-                            "Normal"  => '',
-                            "Small"   => 'small',
-                            "Smaller" => 'smaller',
+                            "Normal (h1)"  => '',
+                            "Small (h2)"   => 'h2',
+                            "Smaller (h3)" => 'h3',
 
                         ],
                         "description"    => "Choose the font size of the title"
@@ -196,6 +196,14 @@ class vcContactIntro extends WPBakeryShortCode {
         return $html;
     }
 
+    public function header( $font_size = 'h1', $string ){
+        
+        $html = '<'. $font_size .'>'. $string .' ('. $font_size .')</'. $font_size .'>';
+
+        return $html;
+
+    }
+
     public function vc_contact_intro( $atts, $content ) {
 
         global $post;
@@ -205,7 +213,7 @@ class vcContactIntro extends WPBakeryShortCode {
                 [
                     'animation' => '',
                     'title'     => '',
-                    'font_size'     => '',
+                    'font_size' => 'h1',
                     'subtitle'  => '',
                     'image'     => '',
                     'locations' => ''
@@ -221,8 +229,10 @@ class vcContactIntro extends WPBakeryShortCode {
        $html = '
             <div class="row no-gutters">
                 <div class="col-12 col-md-6 pr-md-5 order-2 order-md-1">
-                    <h2 class="mt-3 mt-md-0">'. $subtitle .'</h2>
-                    <h1 class="'. $font_size .'">'. $title .'</h1>
+                    <h2 class="bordered mt-3 mt-md-0">'. $subtitle .'</h2>
+                    
+                    '. self::header( $font_size, $title ) .'
+
                     <div class="content py-4">
                         '. apply_filters( "the_content", $content ) .'
                     </div>

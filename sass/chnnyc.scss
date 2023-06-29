@@ -148,29 +148,27 @@ $bg-light : #ffffff;
 				line-height: 63px;
 				color: $primary;
 
-				&.small {
-					font-size: 44px;
-					line-height: 46px;
-				}
-
-				&.smaller {
-					font-size: 35px;
-					line-height: 39px;
-				}
-
 			}
 
 			h2 {
 				font-family: $font-secondary;
 				font-weight: 600;
-				font-size: 18px;
-				line-height: 22px;
-				border-bottom: 2px solid $primary;
-				padding-bottom: 1rem;
-				margin-bottom: 1rem;
+				font-size: 55px;
+				line-height: 58px;
+				
+				&.bordered {
+					font-size: 18px;
+					line-height: 22px;
+					border-bottom: 2px solid $primary;
+					padding-bottom: 1rem;
+					margin-bottom: 1rem;
+				}
+
 			}
 
 			h3 {
+				font-size: 28px;
+				line-height: 30px;
 				font-family: $font-primary;
 				color: $primary;
 				font-weight: 700;
