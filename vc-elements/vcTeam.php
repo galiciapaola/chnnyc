@@ -117,7 +117,7 @@ class vcTeam extends WPBakeryShortCode {
                <div class="container">
                    <div class="row no-gutters">
                     <div class="col-12">
-                        <h2>'. $position .'</h2>
+                        <h2 class="bordered">'. $position .'</h2>
                     </div>
                    </div>
                    <div class="row no-gutters">
