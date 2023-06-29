@@ -198,7 +198,7 @@ class vcContactIntro extends WPBakeryShortCode {
 
     public function header( $font_size = 'h1', $string ){
         
-        $html = '<'. $font_size .'>'. $string .' ('. $font_size .')</'. $font_size .'>';
+        $html = '<'. $font_size .'>'. $string .'</'. $font_size .'>';
 
         return $html;
 

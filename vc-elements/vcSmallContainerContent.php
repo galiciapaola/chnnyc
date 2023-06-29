@@ -95,7 +95,7 @@ class vcSmallContainerContent extends WPBakeryShortCode {
         $html = '
             <div class="row no-gutters content-centered">
                 <div class="col-10 col-md-4 mx-auto order-2 order-md-1">
-                    <h2 class="text-center">'. $subtitle .'</h2>
+                    <h2 class="bordered text-center">'. $subtitle .'</h2>
                 </div>
             </div>
             <div class="row no-gutters content-centered">

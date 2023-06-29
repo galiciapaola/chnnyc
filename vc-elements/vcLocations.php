@@ -367,7 +367,7 @@ class vcLocations extends WPBakeryShortCode {
                 <div class="container">
                     <div class="row no-gutters">
                         <div class="col-12 col-md-6 pr-md-5">
-                            <h2>'. $subtitle .'</h2>
+                            <h2 class="bordered">'. $subtitle .'</h2>
                             <h1>'. $title .'</h1>
                             <p class="my-4">'. $description .'</p>
                             <p>
