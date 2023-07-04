@@ -160,6 +160,14 @@ function chnnyc_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'chnnyc_scripts' );
 
+
+function chnnyc_formats( $in ) {
+        $in['block_formats'] = "Paragraph=p;Preformatted=pre";
+    return $in;
+}
+
+add_filter( 'tiny_mce_before_init', 'chnnyc_formats' );
+
 /**
  * Implement the Custom Header feature.
  */
