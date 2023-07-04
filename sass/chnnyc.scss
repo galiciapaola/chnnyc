@@ -253,6 +253,10 @@ $bg-light : #ffffff;
 				h2 {
 					color: $primary;
 				}
+
+				img {
+					border-radius: 20px;
+				}
 				
 				.content-centered {
 					h1 {
@@ -461,6 +465,12 @@ $bg-light : #ffffff;
 				}
 			}
 
+			&.vc-two-column-image-container {
+				img {
+					border-radius: 20px;
+				}
+			}
+
 			&.vc-two-column-contact-form {
 
 
@@ -491,6 +501,9 @@ $bg-light : #ffffff;
 			&.vc-team {
 				h2 {
 					color: $primary;
+				}
+				img {
+					border-radius: 20px;
 				}
 			}
 
@@ -569,6 +582,10 @@ $bg-light : #ffffff;
 					font-size: 36px;
 					line-height: 36px;
 					color: $secondary;
+				}
+
+				img {
+					border-radius: 20px;
 				}
 
 				ul {
