@@ -112,7 +112,7 @@ class vcYellowBlockWithButtons extends WPBakeryShortCode {
 
         if ( ! empty( $title ) ) {
             $html_title = '
-                <h2>'. $title .'</h2>
+                <h2 class="text-center">'. $title .'</h2>
             ';
         }
 
@@ -122,7 +122,9 @@ class vcYellowBlockWithButtons extends WPBakeryShortCode {
                     <div class="row">
                         <div class="col-12 col-md-10 mx-auto">
                             '. $html_title .'
-                            <p>'. $html_buttons .'</p>
+                        </div>
+                        <div class="col-12 col-md-10 mx-auto">
+                            <p class="text-center">'. $html_buttons .'</p>
                         </div>
                     </div>
                 </div>
