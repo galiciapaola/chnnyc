@@ -135,10 +135,12 @@ class vcIntro extends WPBakeryShortCode {
         if ( $image ) {
             $img_src = $image[0];
 
+            $subtitle = ( ! empty( $subtitle ) ) ? '<h2 class="bordered mt-3 mt-md-0">'. $subtitle .'</h2>' : '';
+
             $html = '
                 <div class="row no-gutters">
                     <div class="col-12 col-md-6 pr-md-5 order-2 order-md-1">
-                        <h2 class="bordered mt-3 mt-md-0">'. $subtitle .'</h2>
+                        '. $subtitle .'
                         <h1>'. $title .'</h1>
                         <div class="content py-4">
                             '. apply_filters( "the_content", $content ) .'
@@ -152,10 +154,13 @@ class vcIntro extends WPBakeryShortCode {
             ';
 
         }else{
+
+            $subtitle = ( ! empty( $subtitle ) ) ? '<h2 class="bordered">'. $subtitle .'</h2>' : '';
+
             $html = '
                 <div class="row no-gutters content-centered">
                     <div class="col-12 col-md-6 mx-auto order-2 order-md-1">
-                        <h2 class="bordered">'. $subtitle .'</h2>
+                        '. $subtitle .'
                         <h1>'. $title .'</h1>
                         <div class="content py-4">
                             '. apply_filters( "the_content", $content ) .'
