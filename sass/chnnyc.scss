@@ -597,8 +597,63 @@ $bg-light : #ffffff;
 						padding-bottom: 0;
 					}
 				}
-
 				
+			}
+
+			&.vc-images-slider {
+				.swiper {
+				  width: 100%;
+				  height: 100%;
+				}
+
+				.swiper-slide {
+				  text-align: center;
+				  font-size: 1rem;
+				  background: #fff;
+
+				  /* Center slide text vertically */
+				  display: -webkit-box;
+				  display: -ms-flexbox;
+				  display: -webkit-flex;
+				  /*display: flex;*/
+				  display: block;
+				  -webkit-box-pack: center;
+				  -ms-flex-pack: center;
+				  -webkit-justify-content: center;
+				  justify-content: center;
+				  -webkit-box-align: center;
+				  -ms-flex-align: center;
+				  -webkit-align-items: center;
+				  align-items: center;
+				}
+
+				.swiper-slide img {
+				  display: block;
+				  width: 100%;
+				  height: 100%;
+				  object-fit: cover;
+				  border-radius: 20px;
+				}
+
+				.swiper-next,
+				.swiper-prev {
+				  position: absolute;
+				  top: 0;
+				  bottom: 0;
+				  height: 60px;
+				  margin: auto;
+				  z-index: 1;
+				}
+				.swiper-next {
+				  right: 2%;
+				}
+				.swiper-prev {
+				  left: 2%;
+				}
+				.swiper-next:hover,
+				.swiper-prev:hover {
+				  cursor: pointer;
+				}
 			}
 
 		}

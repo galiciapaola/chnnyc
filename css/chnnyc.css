@@ -509,3 +509,59 @@
   color: #00161A;
   padding-bottom: 0;
 }
+/* line 604, ../sass/chnnyc.scss */
+* body .vc-custom.vc-images-slider .swiper {
+  width: 100%;
+  height: 100%;
+}
+/* line 609, ../sass/chnnyc.scss */
+* body .vc-custom.vc-images-slider .swiper-slide {
+  text-align: center;
+  font-size: 1rem;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  /*display: flex;*/
+  display: block;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+/* line 630, ../sass/chnnyc.scss */
+* body .vc-custom.vc-images-slider .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+/* line 638, ../sass/chnnyc.scss */
+* body .vc-custom.vc-images-slider .swiper-next,
+* body .vc-custom.vc-images-slider .swiper-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 60px;
+  margin: auto;
+  z-index: 1;
+}
+/* line 647, ../sass/chnnyc.scss */
+* body .vc-custom.vc-images-slider .swiper-next {
+  right: 2%;
+}
+/* line 650, ../sass/chnnyc.scss */
+* body .vc-custom.vc-images-slider .swiper-prev {
+  left: 2%;
+}
+/* line 653, ../sass/chnnyc.scss */
+* body .vc-custom.vc-images-slider .swiper-next:hover,
+* body .vc-custom.vc-images-slider .swiper-prev:hover {
+  cursor: pointer;
+}

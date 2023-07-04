@@ -25,6 +25,7 @@ function vc_before_init_actions() {
     require_once( get_stylesheet_directory() . '/vc-elements/vcNested.php' );
     require_once( get_stylesheet_directory() . '/vc-elements/vcNestedChild.php' );
     require_once( get_stylesheet_directory() . '/vc-elements/vcLocations.php' );
+    require_once( get_stylesheet_directory() . '/vc-elements/vcImagesSlider.php' );
     
 }
 
