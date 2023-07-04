@@ -65,6 +65,14 @@ class vcThreeColumnBlock extends WPBakeryShortCode {
                                 'heading'     => 'Content',
                                 'param_name'  => 'description',
                                 'admin_label' => true
+                            ],
+
+                            [
+                                'type'        => 'textfield',
+                                'value'       => '',
+                                'heading'     => 'Author',
+                                'param_name'  => 'author',
+                                'admin_label' => false
                             ]
 
                         ]
@@ -130,9 +138,14 @@ class vcThreeColumnBlock extends WPBakeryShortCode {
             }
             
             foreach ($slides as $slide) {
+
+
+                $author_html = ( ! empty( $slide['author'] ) ) ? '<p class="author text-center">'. $slide['author'] .'</p>' : '';
+
                 $slides_html .= '
                     <div class="col-12 '. $width .' mx-auto d-flex flex-column">
-                        <p class="text-center my-auto px-3 py-4 px-md-5 py-md-2">"'. $slide['description'] .'"</p>
+                        <p class="text-center my-auto px-3 py-4 px-md-5 py-md-2">'. $slide['description'] .'</p>
+                        '. $author_html .'
                     </div>
                 ';
             }
